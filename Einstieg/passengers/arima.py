@@ -8,7 +8,7 @@ ts = pd.read_csv("airline-passengers.csv", header=0, index_col=0)
 # extract column with passengers
 nOfPassengers = ts["Passengers"]
 
-model = ARIMA(nOfPassengers, order=(2,1,2))
+model = ARIMA(nOfPassengers, order=(2, 1, 2))
 results = model.fit(disp=-1)
 
 # given data
@@ -23,5 +23,5 @@ predictions = results.fittedvalues.cumsum()
 pyplot.plot(predictions)
 pyplot.show()
 
-results.plot_predict(1,264)
+results.plot_predict(1, 264)
 pyplot.show()
