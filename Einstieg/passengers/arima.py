@@ -23,5 +23,5 @@ predictions = results.fittedvalues.cumsum()
 pyplot.plot(predictions)
 pyplot.show()
 
-results.plot_predict(1, 264)
+results.plot_predict(1, 800)
 pyplot.show()
