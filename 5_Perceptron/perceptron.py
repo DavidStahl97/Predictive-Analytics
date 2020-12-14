@@ -197,5 +197,5 @@ def gradient():
     plot_error_gradient(weights1, weights2, errors, final_w1=perceptron.weights[1], final_w2=perceptron.weights[2], final_e=final_e)
 
 
-train()
-# gradient()
+# train()
+gradient()

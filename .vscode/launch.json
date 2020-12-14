@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}/Preprocessing/patients",
+            "cwd": "${workspaceFolder}/5_Perceptron",
         }
     ]
 }
